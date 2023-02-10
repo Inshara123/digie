@@ -1,0 +1,156 @@
+/* *{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+} */
+.nav-link{
+    text-align: center;
+}
+
+#color,#home,#About-Us{
+    background-color:#FFF7F4 ;
+}
+#header-ul{
+    color: black;
+}
+ul li{
+    font-size: 20px;
+}
+#character {
+    /* margin-left: 32px; */
+    width: 310px;
+}
+#services .h2,#About-Us h2{
+   color: #FF5300;
+   position: relative;
+}
+/* #services .h2::before {
+    content: "";
+    background-color: #FF5300;
+    height: 2px;
+    width: 24px;
+    top: 10px;
+    position: absolute;
+    left: 408px;
+}
+#services .h2::after {
+    content: "";
+    background-color: #FF5300;
+    height: 2px;
+    width: 24px;
+    top: 11px;
+    position: absolute;
+    right: 408px;
+} */
+#services #card1 .inner,#services #card2 .inner,#services #card3 .inner{
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px;
+}
+#services #card1 p,#services #card2 p,#services #card3 p{
+   color: gray;
+}
+#services #s-h2{
+    color: black;
+}
+#s-first{
+    width: 60px;
+}
+#s-second{
+    width: 52px;
+}
+#About-Us p,#home p{
+    color: gray;
+}
+#About-Us ul{
+    list-style-type: none;
+}
+#About-Us ul li{
+    position: relative;
+}
+#About-Us ul li::before {
+    content: "";
+    background-image: url(https://image.shutterstock.com/image-vector/yes-vector-icon-this-rounded-260nw-306092210.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 15px;
+    width: 16px;
+    left: -25px;
+    display: block;
+    bottom: 9px;
+}
+#About-Us img{
+    height: 402px;
+    width: 452px
+}
+#Contact-Us .orange{
+    background-color: #FF5300;
+}
+#Contact-Us .orange h3,#Contact-Us .orange h2{
+   color: white;
+}
+#Contact-Us .orange .input{
+    background-color: white;
+}
+#Contact-Us .orange input{
+outline: none;
+border: 1px solid white;
+width: 60%;
+height: 58px;
+}
+#Contact-Us .orange  button{
+
+    border: 3px solid white;
+    background: #FF5300;
+    height: 55px;
+    width: 28%;
+    font-size: 16px;
+    border-radius: 3px;
+    /* margin-top: -43px; */
+    font-weight: 600;
+    color: white;
+}
+#Footer{
+    background-color: black;
+}
+#Footer p{
+    color: white;
+
+}
+#Footer h2{
+    color:  #FF5300;
+    
+}
+#Footer #anchor a{
+    text-decoration: none;
+    color: white;
+}
+#Footer i{
+    color: #FF5300;
+    font-size: 27px;
+}
+@media screen and (max-width:578px) {
+    #About-Us img{
+        height: 200px;
+        width: 200px
+    }
+    #Contact-Us .orange input{
+        outline: none;
+        border: 1px solid white;
+        width: 100%;
+        height: 58px;
+        }
+        #Contact-Us .orange  button{
+
+            border: 3px solid white;
+            background: #FF5300;
+            height: 55px;
+            width: 40%;
+            font-size: 16px;
+            border-radius: 3px;
+            /* margin-left: 30px; */
+            font-weight: 600;
+            color: white;
+        }
+    
+}
